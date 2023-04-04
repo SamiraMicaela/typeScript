@@ -12,5 +12,5 @@ if(position <=0){
     case 3: message = ("Medalla de bronce");
     break;
     default: message = ("Certificado de participacion");
-}
+    }
 console.log (message)

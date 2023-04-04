@@ -5,7 +5,7 @@ let user : string = rls.question("ingrese el nombre de usuario: ");
 let clave : string= rls.question("ingrese la clave: ");
 
 if (user=="Samira" && clave=="claveSamira"){
-    console.log("ingresaste los datos correctos");
+console.log("ingresaste los datos correctos");
     } else {
     console.log("usted no a ingresado los datos correctos");
 }
