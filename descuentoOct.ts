@@ -22,7 +22,7 @@ if (mes == "octubre"){
 valorDescuento = subTotal * 0.15 ;
 precioFinal = (subTotal - valorDescuento);
 console.log ("Usted tiene un descuento de: $", valorDescuento, "por haber comprado en octubre. \nEl precio final es de: ", precioFinal)
-} else {
+    } else {
     precioFinal = subTotal;
     console.log ("gracias por la compra. \nEl precio final es de: $ ", precioFinal)
 }

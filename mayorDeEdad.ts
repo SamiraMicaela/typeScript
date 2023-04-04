@@ -8,6 +8,6 @@ let edadUsuario : number = rls.questionInt("Indique la edad del usuario");
 
 if (edadUsuario >= 18) {
     console.log("El usuario es mayor de edad")
-} else {
+    } else {
     console.log("El usuario es menor de edad")
 }
