@@ -5,12 +5,9 @@ import * as rls from "readline-sync";
 let octubre: boolean = true;
 let cantidadProducto1: number = rls.questionInt ("Ingrese la cantidad del p1 comprados: ");
 let cantidadProducto2: number = rls.questionInt ("Ingrese la cantidad del p2 comprados: ");
-
 let mes: string = rls.question ("Ingrese el mes de la compra: ");
-
 let precioProducto1: number = 5000;
 let precioProducto2: number = 8000;
-
 let precioFinal: number = 0;
 let valorDescuento: number = 0;
 let subTotal: number = 0;

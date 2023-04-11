@@ -10,12 +10,9 @@ let contTotal : number = 2;
 let suma : number = 0;
 let promedio : number = 0;
 let n1 : number = rls.questionFloat("Ingrese numero: ");
-
+let n2 : number = rls.questionFloat("Ingrese numero: ");
 if (n1 !==0){
-    
-    suma = n1;
-    let n2 : number = rls.questionFloat("Ingrese numero: ");
-
+    suma = n1; 
     if (n2 !== 0){
         suma += n2;
         promedio = suma/2;
@@ -27,7 +24,6 @@ if (n1 !==0){
         numMax = n2;
         numMin = n1;
         }
-
         let nn : number = 1;
 
         while ( nn !==0){
@@ -40,9 +36,6 @@ if (n1 !==0){
                 promedio = suma/contTotal; 
             }
         }
-
         console.log (`${numMax} es el maximo. ${numMin} es el minimo. ${promedio} es el promedio`);
-
-    } else console.log (`${n1} es el maximo. ${n1} es el minimo. ${n1} es el promedio.`);
-    
+    } else console.log (`${n1} es el maximo. ${n1} es el minimo. ${n1} es el promedio.`);    
 }    

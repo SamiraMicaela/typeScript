@@ -1,10 +1,9 @@
 import *as rls from "readline-sync";
-let n : number = rls.questionInt ("ingrese");
+let n : number = rls.questionInt ("ingrese el numero: ");
 let resultado : number = 0;
-    for( n = 1; n <= 100; n ++){
-        if (n % 2 === 0 || n % 3 === 0){
-       n = n + 1 ; 
-        }
-    resultado = n
-    } 
-console.log (resultado)
+    if (n % 2 === 0 || n % 3 === 0){
+        resultado = n; 
+    console.log ( resultado,"Este numero es multiplo de 2 o de 3.");
+    } else{
+        console.log ("Este numero no es multiplo de 2 y de 3");
+    }

@@ -1,8 +1,7 @@
 import * as rls from "readline-sync";
 let nota, suma, promedio, contador : number 
-contador =1;
 suma= 0;
-for (contador =1; contador <=10; contador++){
+for (let contador =1; contador <=10; contador++){
    nota= rls.questionInt ("Ingrese la nota" + contador+":"); 
    suma +=nota;
 }
